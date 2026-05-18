@@ -1,13 +1,6 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* File: src/index.css */
+/* Tiga baris ini WAJIB ada agar Tailwind CSS bisa bekerja */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@tailwind base;       /* Reset style dasar browser */
+@tailwind components; /* Komponen bawaan Tailwind */
+@tailwind utilities;  /* Class-class utility seperti p-4, text-blue-500, dll */
