@@ -1,11 +1,11 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  // Tailwind akan scan file-file ini untuk mencari class yang dipakai
+export default {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}", // Scan semua file di folder src
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {}, // Bisa tambah warna/font custom di sini
+    extend: {},
   },
-  plugins: [], // Plugin tambahan (kita tidak pakai)
-};
+  plugins: [],
+}
